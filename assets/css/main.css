@@ -1261,6 +1261,7 @@
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+				text-align: middle;
 			}
 
 				#header .content .inner > :last-child {
@@ -1483,7 +1484,7 @@
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 55rem;
+			width: 53rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1745,3 +1746,39 @@
 		from {opacity: 0;}
 		to {opacity:1 ;}
 	}
+	
+/* Phrase from Personal Story */
+	
+	#phrase {
+		background-color:rgba(193,193,193,0.1);
+		border-radius: 10px;
+		padding: 15px 20px;
+	}
+	
+	#skills{
+		background-color:rgba(193,193,193,0.1);
+		border-radius: 10px;
+		padding: 15px 20px;
+	}
+	
+	#hovering {
+		border: 1px solid #ccc;
+		display: none;
+		font-size: 10px;
+		margin-top: 10px;
+		padding: 5px;
+		text-transform: uppercase;
+	}
+
+	#hovered:hover #hovering {
+		display: block;
+	}
+	
+	/*
+	.description {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		
+	}
+	*/
